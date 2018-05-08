@@ -1,0 +1,2 @@
+class ScoreMaster < ApplicationRecord
+end

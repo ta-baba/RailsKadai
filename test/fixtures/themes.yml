@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  hyouka1: MyString
+  hyouka2: MyString
+  hyouka3: MyString
+  hyouka4: MyString
+  hyouka5: MyString
+
+two:
+  name: MyString
+  hyouka1: MyString
+  hyouka2: MyString
+  hyouka3: MyString
+  hyouka4: MyString
+  hyouka5: MyString

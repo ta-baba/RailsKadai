@@ -1,0 +1,12 @@
+<h1>Themes#show</h1>
+<p>Find me in app/views/themes/show.html.erb</p>
+
+
+  テーマ名: <%= @theme.name %> <br>
+  評価項目１: <%= @theme.hyouka1 %> <br>
+  評価項目２: <%= @theme.hyouka2 %> <br>
+  評価項目３: <%= @theme.hyouka3 %> <br>
+  評価項目４: <%= @theme.hyouka4 %> <br>
+  評価項目５: <%= @theme.hyouka5 %> <br>
+<%= link_to '編集', edit_theme_path(@theme) %>
+<%= link_to '一覧へ', themes_path %>

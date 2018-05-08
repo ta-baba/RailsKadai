@@ -1,0 +1,21 @@
+<h1>Themes#new</h1>
+<p>Find me in app/views/theme2/new.html.erb</p>
+
+<%= form_for @theme do |f| %>
+
+  <%= f.label :テーマ名%>
+  <%= f.text_field :name %> <br>
+
+  <%= f.label :評価項目１ %>
+  <%= f.text_field :hyouka1, :size => "20x10" %> <br>
+  <%= f.label :評価項目２ %>
+  <%= f.text_field :hyouka2 %> <br>
+  <%= f.label :評価項目３ %>
+  <%= f.text_field :hyouka3 %> <br>
+  <%= f.label :評価項目４ %>
+  <%= f.text_field :hyouka4 %> <br>
+  <%= f.label :評価項目５ %>
+  <%= f.text_field :hyouka5 %> <br>
+
+  <%= f.submit "Create new theme", class: "btn btn-primary" %>
+<% end %>

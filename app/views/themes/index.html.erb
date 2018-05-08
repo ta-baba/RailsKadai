@@ -1,0 +1,11 @@
+<h1>Themes#index</h1>
+<p>Find me in app/views/themes/index.html.erb</p>
+
+<h1><%=link_to 'CreateNewTheme', new_theme_path %></h1>
+
+<h2><% @themes.each do |t| %><br></h2>
+<h3>
+  テーマ名: <%= link_to t.name, t %>
+  <%= link_to "削除", t, method: :delete, data: { confirm: "本当に消しますか? 後悔しませんね？" } %>
+</h3>
+<% end %>
